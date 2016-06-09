@@ -1,4 +1,6 @@
-This is your new Play application
-=================================
+Play application for modelling stock market events
+==================================================
 
-This file will be packaged with your application, when using `activator dist`.
+Event Sourcing approach demo
+
+
