@@ -1,0 +1,31 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                               controllers.Application.index
+GET     /health                         controllers.Application.health
+
+
+# currency events
+
+PUT     /currency/:cId/rate/:dttm       controllers.StockController.appendCurrencyRate(cId: String, dttm: Int, rate: Double)
+GET     /currency/:cId/rate/:dttm       controllers.StockController.fetchCurrencyRate(cId: String, dttm: Int)
+GET     /currency/:cId/rate             controllers.StockController.currencyInfo(cId: String)
+
+# stock price events
+PUT     /stock/:sId/price/:dttm        controllers.StockController.appendStockPrice(sId: String, dttm: Int, price: Double)
+GET     /stock/:sId/price/:dttm        controllers.StockController.fetchStockPrice(sId: String, dttm: Int)
+GET     /stock/:sId/price              controllers.StockController.stockInfo(sId: String)
+
+# stock action events
+PUT     /ops/:sId/buy/:dttm            controllers.OperationController.buy(sId: String, dttm: Int, quantity: Long)
+PUT     /ops/:sId/sell/:dttm           controllers.OperationController.sell(sId: String, dttm: Int, quantity: Long)
+
+GET     /ops/net/:dttm                 controllers.OperationController.net(dttm: Int)
+GET     /ops/net/:sId/:dttm            controllers.OperationController.netByStock(sId: String, dttm: Int)
+
+# out
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

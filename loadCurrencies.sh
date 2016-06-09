@@ -1,0 +1,67 @@
+#!bin/bash
+
+#GBP
+curl -XPUT localhost:9000/currency/gbp/rate/1?rate=1.5400000000
+curl -XPUT localhost:9000/currency/gbp/rate/2?rate=1.5463997120
+curl -XPUT localhost:9000/currency/gbp/rate/3?rate=1.5470248143
+curl -XPUT localhost:9000/currency/gbp/rate/4?rate=1.5516827259
+curl -XPUT localhost:9000/currency/gbp/rate/5?rate=1.5610380857
+curl -XPUT localhost:9000/currency/gbp/rate/6?rate=1.5581210854
+curl -XPUT localhost:9000/currency/gbp/rate/7?rate=1.5495757755
+curl -XPUT localhost:9000/currency/gbp/rate/8?rate=1.5535255964
+curl -XPUT localhost:9000/currency/gbp/rate/9?rate=1.5467812473
+curl -XPUT localhost:9000/currency/gbp/rate/10?rate=1.5440015524
+curl -XPUT localhost:9000/currency/gbp/rate/11?rate=1.5458187013
+curl -XPUT localhost:9000/currency/gbp/rate/12?rate=1.5536279818
+curl -XPUT localhost:9000/currency/gbp/rate/13?rate=1.5469779296
+curl -XPUT localhost:9000/currency/gbp/rate/14?rate=1.5474466449
+curl -XPUT localhost:9000/currency/gbp/rate/15?rate=1.5521896956
+curl -XPUT localhost:9000/currency/gbp/rate/16?rate=1.5534670218
+curl -XPUT localhost:9000/currency/gbp/rate/17?rate=1.5513400830
+curl -XPUT localhost:9000/currency/gbp/rate/18?rate=1.5562314093
+curl -XPUT localhost:9000/currency/gbp/rate/19?rate=1.5636285831
+curl -XPUT localhost:9000/currency/gbp/rate/20?rate=1.5717421761
+curl -XPUT localhost:9000/currency/gbp/rate/21?rate=1.5738983204
+curl -XPUT localhost:9000/currency/gbp/rate/22?rate=1.5771021606
+curl -XPUT localhost:9000/currency/gbp/rate/23?rate=1.5715900808
+curl -XPUT localhost:9000/currency/gbp/rate/24?rate=1.5760880733
+curl -XPUT localhost:9000/currency/gbp/rate/25?rate=1.5748517909
+curl -XPUT localhost:9000/currency/gbp/rate/26?rate=1.5665591231
+curl -XPUT localhost:9000/currency/gbp/rate/27?rate=1.5589148119
+curl -XPUT localhost:9000/currency/gbp/rate/28?rate=1.5563388376
+curl -XPUT localhost:9000/currency/gbp/rate/29?rate=1.5505725643
+curl -XPUT localhost:9000/currency/gbp/rate/30?rate=1.5476151652
+curl -XPUT localhost:9000/currency/gbp/rate/31?rate=1.5545829229
+
+#EUR
+curl -XPUT localhost:9000/currency/eur/rate/1?rate=1.1200000000
+curl -XPUT localhost:9000/currency/eur/rate/2?rate=1.1287698791
+curl -XPUT localhost:9000/currency/eur/rate/3?rate=1.1387503547
+curl -XPUT localhost:9000/currency/eur/rate/4?rate=1.1359123722
+curl -XPUT localhost:9000/currency/eur/rate/5?rate=1.1363179123
+curl -XPUT localhost:9000/currency/eur/rate/6?rate=1.1455999822
+curl -XPUT localhost:9000/currency/eur/rate/7?rate=1.1424335190
+curl -XPUT localhost:9000/currency/eur/rate/8?rate=1.1472158785
+curl -XPUT localhost:9000/currency/eur/rate/9?rate=1.1553735571
+curl -XPUT localhost:9000/currency/eur/rate/10?rate=1.1456233039
+curl -XPUT localhost:9000/currency/eur/rate/11?rate=1.1459473702
+curl -XPUT localhost:9000/currency/eur/rate/12?rate=1.1443143692
+curl -XPUT localhost:9000/currency/eur/rate/13?rate=1.1517040870
+curl -XPUT localhost:9000/currency/eur/rate/14?rate=1.1553728836
+curl -XPUT localhost:9000/currency/eur/rate/15?rate=1.1505956569
+curl -XPUT localhost:9000/currency/eur/rate/16?rate=1.1440663378
+curl -XPUT localhost:9000/currency/eur/rate/17?rate=1.1364314513
+curl -XPUT localhost:9000/currency/eur/rate/18?rate=1.1441320988
+curl -XPUT localhost:9000/currency/eur/rate/19?rate=1.1498181954
+curl -XPUT localhost:9000/currency/eur/rate/20?rate=1.1594581012
+curl -XPUT localhost:9000/currency/eur/rate/21?rate=1.1684074259
+curl -XPUT localhost:9000/currency/eur/rate/22?rate=1.1714972148
+curl -XPUT localhost:9000/currency/eur/rate/23?rate=1.1620573898
+curl -XPUT localhost:9000/currency/eur/rate/24?rate=1.1689603307
+curl -XPUT localhost:9000/currency/eur/rate/25?rate=1.1688384830
+curl -XPUT localhost:9000/currency/eur/rate/26?rate=1.1599338641
+curl -XPUT localhost:9000/currency/eur/rate/27?rate=1.1542613768
+curl -XPUT localhost:9000/currency/eur/rate/28?rate=1.1577144866
+curl -XPUT localhost:9000/currency/eur/rate/29?rate=1.1520739268
+curl -XPUT localhost:9000/currency/eur/rate/30?rate=1.1428654130
+curl -XPUT localhost:9000/currency/eur/rate/31?rate=1.1522897389
